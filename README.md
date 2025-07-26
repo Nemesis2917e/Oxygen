@@ -8,12 +8,16 @@
 
 ## 🚀 Introduction
 
-**Oxygen** is an experimental programming language with simple syntax that compiles directly to C++. Designed for rapid prototyping and learning, it offers a clean, minimal style:
-
+**Oxygen** is an experimental programming language with simple syntax that compiles directly to C++. It is a modernised version of C++ . Designed for rapid prototyping and learning, it offers a clean, minimal style:
+q
 ```oxygen
+#include <iostream>
+using namespace std;
+
 Start() {
     Print "Hello, Oxygen!"
 }
+
 ```
 
 Run it, convert it, compile it. Oxygen handles the rest.
