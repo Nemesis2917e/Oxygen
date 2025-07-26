@@ -12,7 +12,7 @@
 
 ```oxygen
 Start() {
-    Print "Hello, Oxygen!";
+    Print "Hello, Oxygen!"
 }
 ```
 
