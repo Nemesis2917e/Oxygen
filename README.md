@@ -62,7 +62,7 @@ A main.exe executable in your build directory.
 using namespace std;
 
 Start() {
-    Print "Hello, Oxygen!";
+    Print "Hello, Oxygen!"
 }
 ```
 
