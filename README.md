@@ -58,6 +58,9 @@ A main.exe executable in your build directory.
 **1. Create an Oxygen script (e.g., hello.ox)**
 
 ```
+#include <iostream>
+using namespace std;
+
 Start() {
     Print "Hello, Oxygen!";
 }
