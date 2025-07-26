@@ -14,11 +14,11 @@
 Start() {
     Print "Hello, Oxygen!";
 }
+```
 
 Run it, convert it, compile it. Oxygen handles the rest.
 
-```
----
+----
 
 📦 Current Version
 
