@@ -1,7 +1,7 @@
 
 # Oxygen Programming Language
 
-**Version 0.1 — Created by Saad Arshad**  
+**Version 0.4 — Created by Saad Arshad**  
 *A lightweight scripting language that breathes life into your code.*
 
 ---
@@ -11,11 +11,47 @@
 **Oxygen** is an experimental programming language with simple syntax that compiles directly to C++. It is a modernised version of C++ . Designed for rapid prototyping and learning, it offers a clean, minimal style:
 q
 ```oxygen
+#include <fstream>
 #include <iostream>
 using namespace std;
 
+
+@cpp {
+//Oxygen is invalid here , Cpp block is passed untouched to C++ Source File for Ultra Low Level Coding
+cout << "Hello , C++2" ;
+
+}
+
+
+@cpp {
+//Oxygen is invalid here , C++ only
+cout << "Hello , Cpp block 2 " ;
+
+}
+
 Start() {
-    Print "Hello, Oxygen!"
+     
+    Print "\n Oxygen Programming Language \n \n A Modernized Version of C++ \n"
+    Print " Currently in Development \n"
+    Print "Version 0.2 \n" 
+    Print "Created by Saad Arshad \n"
+
+
+   //i haven't added support for variables yet so this will not work simply remove this match before compiling
+match ('A') {
+    'A' => Print "Excellent!"
+    'B' => Print "Good!"
+    default => Print "Needs improvement."
+}
+  
+
+@cpp {
+//Oxygen is invalid here , C++ only
+cout << "Hello , C++" ;
+
+}
+
+
 }
 
 ```
@@ -28,7 +64,7 @@ Run it, convert it, compile it. Oxygen handles the rest.
 
 Language: Oxygen
 
-Version: 0.1
+Version: 0.4
 
 Author: Saad Arshad
 
@@ -55,7 +91,7 @@ A main.exe executable in your build directory.
 
 ▶️ Running Your First Oxygen Script
 
-**1. Create an Oxygen script (e.g., hello.ox)**
+**1. Create an Oxygen script (e.g., hello.oxy)**
 
 ```
 #include <iostream>
@@ -70,7 +106,7 @@ Start() {
    
    Open Terminal in download folder and Type
 ```
-./main.exe hello.ox output.cpp
+./compiler.exe hello.ox output.cpp
 
 ```
 
@@ -110,7 +146,7 @@ Comments	// this is a comment	C++-style comment
 
 🗺️ Roadmap
 
-[x] Basic syntax: Start() and Print
+[x] Basic syntax: Start() , Print and Cpp Blocks
 
 [ ] Variables & data types
 
