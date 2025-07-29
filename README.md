@@ -197,11 +197,3 @@ Licensed under the [MIT License](LICENSE).
 
 Oxygen is in its early days — but growing fast!  
 If you’re interested in contributing, testing, or experimenting with new syntax, now’s the perfect time to get involved.
-
----
-
-**Happy coding! 🚀**
-
----
-
-Let me know if you want further customization, more badges, or a project logo!
