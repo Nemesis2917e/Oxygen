@@ -40,7 +40,7 @@
 ## ▶️ Your First Oxygen Script
 
 1. **Create an Oxygen File (`hello.oxy`):**
-    ```cpp
+    ```py
     #include <iostream>
     using namespace std;
 
