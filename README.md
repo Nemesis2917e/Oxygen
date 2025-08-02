@@ -33,7 +33,7 @@
     ```
 2. **Build the Compiler**
     - Follow your platform instructions to build.  
-      (A prebuilt `main.exe` may be available in the build directory.)
+      (A prebuilt `compiler.exe` may be available in the build directory.)
 
 ---
 
@@ -77,6 +77,11 @@
 | Entry Point  | `Start() { ... }`           | `int main() { ... }`               |
 | Print        | `Print "Hello!"`            | `std::cout << "Hello!" << '\n';`   |
 | Comments     | `// this is a comment`      | C++-style comments                 |
+| Basic Math   | `Print 4+3 + 50/2 - 5`      | `cout << 4 + 3 + 50/2 -5`          |
+| Match        | `match (4 + 2) { 
+5 => Print "Hello" 
+6 => Print "Hello Oxygen"
+default => Print "Nothing"`                   |                                   |
 
 > More features (variables, control flow, functions) are coming soon!
 
@@ -89,28 +94,48 @@
 #include <iostream>
 using namespace std;
 
+
 @cpp {
-    // C++ code block - untouched by Oxygen
-    cout << "Hello, C++2";
+//Oxygen is invalid here , C++ only
+cout << " Hello , C++ " ;
+
+}
+
+
+@cpp {
+//Oxygen is invalid here , C++ only
+cout << " Hello , Cpp block 2 " ;
+
 }
 
 Start() {
-    Print "\n Oxygen Programming Language \n\n A Modernized Version of C++ \n"
+     
+    Print "\n Oxygen Programming Language \n \n A Modernized Version of C++ \n"
     Print " Currently in Development \n"
     Print "Version 0.2 \n" 
     Print "Created by Saad Arshad \n"
+Print 46 + 5 - 1 
+Print 60*2 + 2
 
-    // Variables and match not yet supported
-    match ('A') {
-        'A' => Print "Excellent!"
-        'B' => Print "Good!"
-        default => Print "Needs improvement."
-    }
 
-    @cpp {
-        cout << "Hello, C++";
-    }
+
+match (24 + 2) {
+    24 => Print "\n Excellent! \n"
+    26 => Print "\n Good! \n"
+    default => Print "\n   Needs improvement. \n"
 }
+  
+
+@cpp {
+//Oxygen is invalid here , C++ only
+cout << "Hello , C++" ;
+
+}
+
+
+}
+
+
 ```
 
 **Transpiled C++ Output:**
