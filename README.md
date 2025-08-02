@@ -79,9 +79,9 @@
 | Comments     | `// this is a comment`      | C++-style comments                 |
 | Basic Math   | `Print 4+3 + 50/2 - 5`      | `cout << 4 + 3 + 50/2 -5`          |
 | Match        | `match (4 + 2) {`           |                                    |
-               |`5 => Print "Hello" `        |                                    |
-               |`6 => Print "Hello Oxygen" ` |                                    |
-               |` default => Print "Nothing"`|                                    |
+|              |`5 => Print "Hello" `        |                                    |
+|              |`6 => Print "Hello Oxygen" ` |                                    |
+|              |` default => Print "Nothing"`|                                    |
 
 > More features (variables, control flow, functions) are coming soon!
 
