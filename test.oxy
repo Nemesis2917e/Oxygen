@@ -24,9 +24,7 @@ Start() {
     Print "Created by Saad Arshad \n"
 Print 46 + 5 - 1 
 Print 60*2 + 2
-Print  "My Score is : " 50/2
-Print  42 + 4 "is my score"
-Print 46 "is My score"
+
 
 
 match (24 + 2) {
@@ -44,3 +42,4 @@ cout << "Hello , C++" ;
 
 
 }
+
