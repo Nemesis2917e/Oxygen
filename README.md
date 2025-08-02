@@ -89,7 +89,7 @@
 
 ## 🛡️ Code Sample
 
-```cpp
+```py
 #include <fstream>
 #include <iostream>
 using namespace std;
