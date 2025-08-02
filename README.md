@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Version](https://img.shields.io/badge/version-0.4-blue)
+![Version](https://img.shields.io/badge/version-0.5-blue)
 ![Status](https://img.shields.io/badge/status-early--development-orange)
 
 *A lightweight scripting language that breathes life into your code.*
@@ -112,7 +112,7 @@ Start() {
      
     Print "\n Oxygen Programming Language \n \n A Modernized Version of C++ \n"
     Print " Currently in Development \n"
-    Print "Version 0.2 \n" 
+    Print "Version 0.5 \n" 
     Print "Created by Saad Arshad \n"
 Print 46 + 5 - 1 
 Print 60*2 + 2
@@ -158,7 +158,7 @@ int main() {
 
     cout << "\n Oxygen Programming Language \n\n A Modernized Version of C++ \n" << endl;
     cout << " Currently in Development \n" << endl;
-    cout << "Version 0.2 \n" << endl;
+    cout << "Version 0.5 \n" << endl;
     cout << "Created by Saad Arshad \n" << endl;
 
     // Switch/match not working yet
@@ -173,7 +173,7 @@ int main() {
 
 - [x] Basic syntax: `Start()`, `Print`, `@cpp` blocks
 - [ ] Variables & data types
-- [ ] Arithmetic expressions
+- [x] Arithmetic expressions
 - [ ] If/else, loops
 - [ ] Functions & modularization
 - [ ] Error handling & diagnostics
