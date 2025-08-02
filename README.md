@@ -78,7 +78,7 @@
 | Print        | `Print "Hello!"`            | `std::cout << "Hello!" << '\n';`   |
 | Comments     | `// this is a comment`      | C++-style comments                 |
 | Basic Math   | `Print 4+3 + 50/2 - 5`      | `cout << 4 + 3 + 50/2 -5`          |
-| Match        | `match (4 + 2) {`           |                                    |
+| Match        | `match (4 + 2) {`           |   Output : Hello Oxygen            |
 |              |`5 => Print "Hello" `        |                                    |
 |              |`6 => Print "Hello Oxygen" ` |                                    |
 |              |`default => Print "Nothing"}`|                                    |
