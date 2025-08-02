@@ -5,14 +5,14 @@ using namespace std;
 
 @cpp {
 //Oxygen is invalid here , C++ only
-cout << "Hello , C++2" ;
+cout << " Hello , C++ " ;
 
 }
 
 
 @cpp {
 //Oxygen is invalid here , C++ only
-cout << "Hello , Cpp block 2 " ;
+cout << " Hello , Cpp block 2 " ;
 
 }
 
@@ -22,13 +22,17 @@ Start() {
     Print " Currently in Development \n"
     Print "Version 0.2 \n" 
     Print "Created by Saad Arshad \n"
+Print 46 + 5 - 1 
+Print 60*2 + 2
+Print  "My Score is : " 50/2
+Print  42 + 4 "is my score"
+Print 46 "is My score"
 
 
-    
-match ('A') {
-    'A' => Print "Excellent!"
-    'B' => Print "Good!"
-    default => Print "Needs improvement."
+match (24 + 2) {
+    24 => Print "\n Excellent! \n"
+    26 => Print "\n Good! \n"
+    default => Print "\n   Needs improvement. \n"
 }
   
 
