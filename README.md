@@ -81,7 +81,7 @@
 | Match        | `match (4 + 2) {`           |                                    |
 |              |`5 => Print "Hello" `        |                                    |
 |              |`6 => Print "Hello Oxygen" ` |                                    |
-|              |` default => Print "Nothing"`|                                    |
+|              |`default => Print "Nothing"}`|                                    |
 
 > More features (variables, control flow, functions) are coming soon!
 
