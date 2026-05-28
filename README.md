@@ -11,7 +11,11 @@
 
 ## 🚀 Introduction
 
-**Oxygen** is an experimental programming language that compiles directly to C++, designed and developed by **Saad Arshad**. Inspired by the versatility of C++, Oxygen aims to make rapid prototyping and learning easier with a simplified, modernized syntax. It’s perfect for learners and tinkerers who want to bridge the gap between scripting and low-level power.
+**Oxygen** is an experimental programming language that compiles directly to C++, designed and developed by **Saad Arshad**. Inspired by the versatility of C++, Oxygen aims to make rapid prototyping and learning easier with a modern, minimal syntax.
+
+<div align="center">
+  <img src="pre.png" alt="Oxygen Programming Language Preview" width="600" style="border-radius: 10px; margin: 20px 0;">
+</div>
 
 ---
 
@@ -247,4 +251,4 @@ Licensed under the [MIT License](LICENSE).
 ## 💬 Final Notes
 
 Oxygen is in its early days — but growing fast!  
-If you’re interested in contributing, testing, or experimenting with new syntax, now’s the perfect time to get involved.
+If you're interested in contributing, testing, or experimenting with new syntax, now's the perfect time to get involved.
